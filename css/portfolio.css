@@ -1,0 +1,366 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.navbar {
+  background: transparent;
+}
+
+.navbar-brand:hover {
+  filter: drop-shadow(5px 5px 10px rgb(251, 3, 98));
+  color: rgb(251, 3, 98);
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid rgb(251, 3, 98);
+}
+
+.navbar-cta {
+  background-color: rgb(251, 3, 98);
+  color: white;
+}
+
+.web-designuirx-logo:hover {
+  filter: drop-shadow(0.1rem 0.1rem 0.1rem rgb(251, 3, 98));
+  scale: 2;
+}
+
+/* MEDIA QUERIES */
+@media (width <= 991px) {
+  div > h1 {
+    font-size: 40px;
+  }
+
+  div.card {
+    width: 100%;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .section,
+  .section-one,
+  .intro,
+  .card-body,
+  .design-row {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
+
+  .card-description {
+    font-size: 18px;
+  }
+
+  .vid1,
+  .vid2 {
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    height: 315px;
+    margin-bottom: 10px;
+  }
+
+  div.customization-section,
+  div.final-section {
+    padding: 60px 10px 60px 10px;
+  }
+
+  .contact-section {
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .contact-section {
+    width: 100%;
+  }
+
+  form.form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  p.description {
+    color: black;
+  }
+
+  .social-media-icon {
+    margin-bottom: 10px;
+  }
+}
+
+@media (width <= 489px) {
+  div.card {
+    width: 100%;
+    height: 1100px;
+  }
+
+  .vid1,
+  .vid2 {
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (width <= 440px) {
+  div.card {
+    width: 100%;
+    height: 1200px;
+  }
+
+  .vid1,
+  .vid2 {
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (width <= 387px) {
+  div.card {
+    width: 100%;
+    height: 1300px;
+  }
+
+  .nav-item {
+    width: 100%;
+    font-size: 24px;
+  }
+}
+
+@media (width <= 340px) {
+  div.card {
+    width: 100%;
+    height: 1400px;
+  }
+}
+
+@media (width <= 315px) {
+  div.card {
+    width: 100%;
+    height: 1450px;
+  }
+}
+
+@media (width <= 300px) {
+  div.card {
+    width: 100%;
+    height: 1500px;
+  }
+}
+
+/* MEDIA QUERIES */
+
+/* Contact Us */
+.contact-section {
+  text-align: center;
+  margin-top: 80px;
+}
+
+#contact-us {
+  margin-bottom: 50px;
+}
+
+.form {
+  background-color: rgb(255, 255, 255, 1em);
+  padding: 3.125em;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 15px -1px rgb(251, 3, 98);
+  width: 50%;
+}
+
+.form:hover {
+  box-shadow: 5px 5px 30px rgb(251, 3, 98);
+}
+
+.signup {
+  color: black;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 0.5em;
+}
+
+.form-input {
+  width: 100%;
+  margin-bottom: 1.25em;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(251, 3, 98);
+  padding: 0.8em;
+  font-family: "Inter", sans-serif;
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.form-input:focus {
+  border: 1px solid rgb(251, 3, 98);
+  outline: none;
+}
+
+.form-marketing {
+  display: flex;
+  margin-bottom: 1.25em;
+  align-items: center;
+}
+
+.form-marketing > input {
+  margin-right: 0.625em;
+}
+
+label {
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: rgb(137, 135, 135);
+}
+
+.checkbox,
+input[type="checkbox"] {
+  accent-color: rgb(251, 3, 98);
+  margin-top: 8px;
+}
+
+.form-submit {
+  width: 50%;
+  padding: 0.625em;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(251, 3, 98);
+  border: 1px dashed rgb(251, 3, 98);
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.form-submit:hover {
+  color: rgb(251, 3, 98);
+  background-color: white;
+  border: 1px dashed rgb(251, 3, 98);
+  cursor: pointer;
+  transition: 0.5s;
+}
+/* Contact Us */
+
+/* Footer */
+footer {
+  padding-top: 150px;
+  height: auto;
+  background: rgb(251, 3, 98);
+  color: white;
+  margin: auto;
+  list-style-type: none;
+  background: transparent;
+  padding: 1rem;
+  top: 60px;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+footer::after {
+  content: "";
+  position: absolute;
+  inset: -0.625em;
+  background: linear-gradient(90deg, rgb(9, 17, 49) 0%, rgb(251, 3, 98) 50%);
+  z-index: -1;
+  border-radius: 0%;
+}
+
+footer > p > a {
+  color: white;
+}
+
+.footer-brand {
+  text-align: left;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.brand-name:hover {
+  filter: drop-shadow(5px 5px 10px rgb(251, 3, 98));
+}
+
+.footer-brand > a {
+  color: white;
+}
+
+p > a {
+  color: black;
+  font-size: 18px;
+}
+
+p > a:hover {
+  color: white;
+}
+
+.social-media-icon {
+  filter: drop-shadow(5px 5px 10px white);
+}
+
+.social-media-icon:hover {
+  scale: 1.25;
+  filter: drop-shadow(5px 5px 10px rgb(190, 72, 129));
+}
+
+.description {
+  font-size: small;
+  font-style: italic;
+  color: lightslategrey;
+}
+
+footer > p {
+  font-size: 17px;
+}
+
+a > img {
+  margin-right: 3px;
+}
+
+.privacy {
+  font-size: small;
+}
+
+div.copyright {
+  font-size: x-small;
+  text-align: center;
+  align-items: start;
+  vertical-align: middle;
+  margin-top: 50px;
+}
+
+.copyright-brand {
+  font-size: x-small;
+}
+/* Footer */
