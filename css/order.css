@@ -115,6 +115,27 @@ div.shopping-bag:hover {
   align-items: center;
 }
 
+.services-section {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/* Cards */
+.card {
+  width: 370px;
+  height: 300px;
+  border-radius: 0 40px;
+  background: white;
+  box-shadow: 15px 15px 30px rgb(251, 3, 98), -15px -15px 30px black;
+  padding-top: 80px;
+}
+
+.card:hover {
+  scale: 1.25;
+  box-shadow: 15px 15px 30px black, -15px -15px 30px rgb(251, 3, 98);
+}
+/* Cards */
+
 /* Section Four */
 .customization-section {
   color: white;
