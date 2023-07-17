@@ -18,21 +18,21 @@
     <!-- Bootstrap -->
     <!-- CSS -->
     <link rel="stylesheet" href="css/contact.css" />
-     <!-- Google tag (gtag.js) -->
-     <script
-     async
-     src="https://www.googletagmanager.com/gtag/js?id=G-JH1G1M596P"
-   ></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag() {
-       dataLayer.push(arguments);
-     }
-     gtag("js", new Date());
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JH1G1M596P"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-     gtag("config", "G-JH1G1M596P");
-   </script>
-   <!-- Google tag (gtag.js) -->
+      gtag("config", "G-JH1G1M596P");
+    </script>
+    <!-- Google tag (gtag.js) -->
   </head>
   <body>
     <!-- Navbar -->
@@ -197,14 +197,15 @@
     <!-- Contact Us -->
     <div class="container contact-section">
       <div class="row col-lg-12 align-items-center">
-        <p class="form-inquiry">
-          Fill out our inquiry form below to get in touch with our team. Let us
-          know your specific needs, goals, and any questions you may have. We
-          value your time and will respond promptly to address your inquiries.
-          Together, we'll create a web design solution that aligns with your
-          vision and drives online success.
-        </p>
-        <form class="form">
+        <h2 class="display-3 fw-bold" id="contact-us">Contact Us</h2>
+        <form
+          class="form"
+          name="contact"
+          method="POST"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+          onSubmit="submit"
+        >
           <span class="signup text-center">Partner with us!</span>
           <label class="form-label">Complete Name:</label>
           <input
@@ -241,6 +242,7 @@
               >
             </label>
           </div>
+          <div class="recaptcha mx-auto" data-netlify-recaptcha="true"></div>
           <button class="form-submit" type="submit">Submit</button>
         </form>
       </div>

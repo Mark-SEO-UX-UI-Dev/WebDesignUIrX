@@ -18,21 +18,21 @@
     <!-- Bootstrap -->
     <!-- CSS -->
     <link rel="stylesheet" href="css/about-us.css" />
-     <!-- Google tag (gtag.js) -->
-     <script
-     async
-     src="https://www.googletagmanager.com/gtag/js?id=G-JH1G1M596P"
-   ></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag() {
-       dataLayer.push(arguments);
-     }
-     gtag("js", new Date());
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JH1G1M596P"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-     gtag("config", "G-JH1G1M596P");
-   </script>
-   <!-- Google tag (gtag.js) -->
+      gtag("config", "G-JH1G1M596P");
+    </script>
+    <!-- Google tag (gtag.js) -->
   </head>
   <body>
     <!-- Navbar -->
@@ -164,16 +164,10 @@
             years of experience in web design, development, and digital
             marketing.
           </p>
-          <a
-            class="btn cta-btn text-center"
-            href="/services.html"
-          >
+          <a class="btn cta-btn text-center" href="/services.html">
             Explore Our Services
           </a>
-          <a
-            class="btn cta-btn-2 text-center"
-            href="/resources.html"
-          >
+          <a class="btn cta-btn-2 text-center" href="/resources.html">
             Explore Our Resources
           </a>
         </div>
@@ -250,7 +244,15 @@
     <!-- Contact Us -->
     <div class="container contact-section">
       <div class="row col-lg-12 align-items-center">
-        <form class="form">
+        <h2 class="display-3 fw-bold" id="contact-us">Contact Us</h2>
+        <form
+          class="form"
+          name="contact"
+          method="POST"
+          data-netlify-recaptcha="true"
+          data-netlify="true"
+          onSubmit="submit"
+        >
           <span class="signup text-center">Partner with us!</span>
           <label class="form-label">Complete Name:</label>
           <input
@@ -287,6 +289,7 @@
               >
             </label>
           </div>
+          <div class="recaptcha mx-auto" data-netlify-recaptcha="true"></div>
           <button class="form-submit" type="submit">Submit</button>
         </form>
       </div>
