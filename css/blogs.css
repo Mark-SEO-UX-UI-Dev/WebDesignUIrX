@@ -248,7 +248,7 @@ input[type="checkbox"] {
   margin-top: 8px;
 }
 
-.recaptcha {
+.g-recaptcha {
   justify-content: center;
   text-align: center;
   margin: auto;
@@ -259,6 +259,13 @@ input[type="checkbox"] {
 @media only screen and (max-width: 500px) {
   .g-recaptcha {
     transform: scale(0.77);
+    transform-origin: 0 0;
+  }
+}
+
+@media only screen and (max-width: 315px) {
+  .g-recaptcha {
+    transform: scale(0.5);
     transform-origin: 0 0;
   }
 }
