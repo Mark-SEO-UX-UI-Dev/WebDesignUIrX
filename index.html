@@ -68,7 +68,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/about-us.html">About Us</a>
             </li>
-            <!-- <li class="nav-item dropdown">
+            <li class="nav-item dropdown">
               <a
                 href="/services.html"
                 class="nav-link dropdown-toggle"
@@ -99,40 +99,7 @@
                   >
                 </li>
               </ul>
-            </li> -->
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="/services.html"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Services
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="/services/template-library.html"
-                    >Template Library</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/services/web-design.html"
-                    >Web Design</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    href="/services/customization-services.html"
-                    >Customization Services</a
-                  >
-                </li>
-              </ul>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="/portfolio.html">Portfolio</a>
             </li>
@@ -433,7 +400,13 @@
     <div class="container contact-section">
       <div class="row col-lg-12 align-items-center">
         <h2 class="display-3 fw-bold" id="contact-us">Contact Us</h2>
-        <form class="form">
+        <form
+          class="form"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          onSubmit="submit"
+        >
           <span class="signup text-center">Partner with us!</span>
           <label class="form-label">Complete Name:</label>
           <input
