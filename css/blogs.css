@@ -248,12 +248,19 @@ input[type="checkbox"] {
   margin-top: 8px;
 }
 
-div.recaptcha {
+.recaptcha {
   justify-content: center;
   text-align: center;
   margin: auto;
   margin-bottom: 10px;
-  width: 80%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  .g-recaptcha {
+    transform: scale(0.77);
+    transform-origin: 0 0;
+  }
 }
 
 .form-submit {
