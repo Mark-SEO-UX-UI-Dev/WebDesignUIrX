@@ -248,7 +248,7 @@ input[type="checkbox"] {
   margin-top: 8px;
 }
 
-.rc-anchor {
+div.rc-anchor {
   justify-content: center;
   text-align: center;
   margin: auto;
