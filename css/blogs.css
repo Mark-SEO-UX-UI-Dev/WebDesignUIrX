@@ -248,7 +248,7 @@ input[type="checkbox"] {
   margin-top: 8px;
 }
 
-div.g-recaptcha > div > iframe {
+div.g-recaptcha {
   justify-content: center;
   text-align: center;
   margin: auto;
